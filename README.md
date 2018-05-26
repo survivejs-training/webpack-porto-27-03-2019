@@ -7,9 +7,9 @@
 
 **26.05.2018**
 
-* 09:30-11:00 - Introduction to webpack .
+* 09:30-11:00 - Introduction to webpack.
 * 11:00-11:30 - Coffee break?
-* 11:30-13:30 - More webpack, freeform in the end? 
+* 11:30-13:30 - More webpack, freeform in the end?
 
 ## Goals
 
