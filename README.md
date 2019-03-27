@@ -19,6 +19,12 @@
 
 ## Goals
 
-* TODO
+* How to optimize your project (vue)?
+* Bundle size optimization, deduplication of libraries (micro-services)
+* Learn what's going on in the bundling process (demystify webpack)
+* How to deal with widget architectures? Discuss interactive rendering.
+* Basics of webpack.
+* What's under the hood?
+* How to improve page loading performance.
 
 ## Examples
