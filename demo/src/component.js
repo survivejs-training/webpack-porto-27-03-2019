@@ -3,5 +3,14 @@ export default (text = "Hello world") => {
 
 	element.innerHTML = text;
 
+	element.onclick = () =>
+		import("./lazy")
+			.then(module => {
+				element.textContent = module.default;
+			})
+			.catch(err => {
+				console.error(err);
+			});
+
 	return element;
 };
