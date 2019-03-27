@@ -6,6 +6,7 @@
 	"scripts": {
 		"build": "webpack --env production",
 		"start": "webpack-dev-server --env development",
+		"build:stats": "webpack --env production --json > stats.json",
 		"format": "prettier --write \"**/*.{js,css,md}\"",
 		"posttest": "npm run format"
 	},
