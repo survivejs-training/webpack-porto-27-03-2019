@@ -5,11 +5,15 @@
 
 ## Schedule
 
-**26.05.2018**
+**27.03.2019**
 
-* 09:30-11:00 - Introduction to webpack.
-* 11:00-11:30 - Coffee break?
-* 11:30-13:30 - More webpack, freeform in the end?
+* 09:00-10:30 - What is webpack, developing, building
+* 10:30-11:00 - Coffee break
+* 11:00-12:30 - Assets, bundle/code splitting, analysis
+* 12:30-13:15 - Lunch
+* 13:15-15:30 - Optimizing, webpack 5
+* 15:30-16:00 - Coffee break
+* 16:00-17:30 - Freeform
 
 ## Goals
 
