@@ -13,9 +13,9 @@
 * 10:30-11:00 - Coffee break
 * 11:00-12:30 - Developing, building, assets
 * 12:30-13:15 - Lunch
-* 13:15-15:30 - Assets, bundle/code splitting, analysis, optimizing, webpack 5
+* 13:15-15:30 - Assets, bundle/code splitting
 * 15:30-16:00 - Coffee break
-* 16:00-17:30 - Freeform
+* 16:00-17:30 - Analysis, optimizing, webpack 5, freeform
 
 ## Goals
 
