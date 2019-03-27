@@ -21,7 +21,22 @@ const commonConfig = merge(
 const productionConfig = merge(
 	parts.extractCSS({
 		use: "css-loader"
-	})
+	}),
+	{
+		optimization: {
+			splitChunks: {
+				cacheGroups: {
+					commons: {
+						test: input => {
+							return input.resource && input.resource.includes("node_modules");
+						}, // /[\\/]node_modules[\\/]/,
+						name: "vendor",
+						chunks: "initial"
+					}
+				}
+			}
+		}
+	}
 );
 
 const developmentConfig = merge(parts.devServer(), parts.loadCSS());
