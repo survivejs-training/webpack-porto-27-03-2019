@@ -36,3 +36,15 @@ import foo from "./foo";
 
 ...
 ```
+
+**Loader demo**
+
+```javascript
+use: ["style-loader", "css-loader"]
+```
+
+read as
+
+```javascript
+styleLoader(cssLoader(input))
+```
