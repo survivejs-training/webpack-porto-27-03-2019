@@ -28,3 +28,11 @@
 * How to improve page loading performance.
 
 ## Examples
+
+**resolve.alias** demo
+
+```javascript
+import foo from "./foo";
+
+...
+```
