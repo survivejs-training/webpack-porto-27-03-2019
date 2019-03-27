@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "webpack --env production",
+		"clean": "rimraf ./dist",
+		"build": "npm run clean && webpack --env production",
 		"start": "webpack-dev-server --env development",
 		"build:stats": "webpack --env production --json > stats.json",
 		"format": "prettier --write \"**/*.{js,css,md}\"",
@@ -24,6 +25,7 @@
 		"lint-staged": "^8.1.5",
 		"mini-css-extract-plugin": "^0.5.0",
 		"prettier": "^1.16.4",
+		"rimraf": "^2.6.3",
 		"style-loader": "^0.23.1",
 		"webpack": "^4.29.6",
 		"webpack-cli": "^3.3.0",
