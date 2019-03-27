@@ -4,14 +4,30 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "wp"
+    "build": "wp",
+    "format": "prettier --write \"**/*.{js,css,md}\"",
+    "posttest": "npm run format"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "html-webpack-plugin": "^3.2.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.16.4",
     "webpack": "^4.29.6",
     "webpack-nano": "^0.6.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
