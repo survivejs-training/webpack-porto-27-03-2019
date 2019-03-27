@@ -1,5 +1,7 @@
 # Webpack - The Good Parts
 
+**WIFI**: Mind Da Guest - youarewelcome
+
 * [Slides](https://presentations.survivejs.com/webpack-the-good-parts/#/1)
 * [Book](https://survivejs.com/webpack/)
 
